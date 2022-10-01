@@ -1,0 +1,40 @@
+
+.product {
+    width: 280;
+    border: 2px solid #ddd;
+    position: relative;
+    border-radius: 10px;
+  }
+  .product img {
+    width: 265px;
+    margin: 7px;
+    border-radius:10px;
+  }
+  .product-details{
+    padding: 10px;
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .btn {
+    width: 100%;
+    background-color: rgb(255, 228, 167);
+    padding: 3px 0;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    border-radius:0 0 8px 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .btn:hover{
+    background-color: rgb(249, 135, 5);
+  }
+  .btn p{
+    margin-right: 5px;
+  }
